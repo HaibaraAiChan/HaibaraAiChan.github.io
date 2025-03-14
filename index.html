@@ -1,97 +1,139 @@
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Shuangyan (Sophie) Yang's Personal Website</title>  
-    <link href="/mnt/data/file-ngwyeoEN29l1M3O1QpdxCwkj" rel="stylesheet" type="text/css">  
-    <style>  
-        body {  
-            font-family: 'YourFontNameHere', sans-serif; /* Replace with the actual font name */  
-            margin: 0;  
-            padding: 0;  
-            background-color: #f9f9f9;  
-            color: #333;  
-            line-height: 1.6;  
-        }  
-        header {  
-            background: #4CAF50;  
-            color: #fff;  
-            padding: 10px 0;  
-            text-align: center;  
-        }  
-        section {  
-            padding: 20px;  
-            margin: 10px;  
-            background: #fff;  
-            border-radius: 5px;  
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
-        }  
-        h2 {  
-            color: #4CAF50;  
-        }  
-        footer {  
-            text-align: center;  
-            padding: 10px 0;  
-            background: #f1f1f1;  
-            margin-top: 20px;  
-        }  
-    </style>  
-</head>  
-<body>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuangyan (Sophie) Yang - Academic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #f1f1f1;
+            margin-top: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
-<header>  
-    <h1>Shuangyan (Sophie) Yang</h1>  
-    <p>Phone: +225-888-7993 | Email: <a href="mailto:syang127@ucmerced.edu">syang127@ucmerced.edu</a></p>  
-    <p><a href="#">LinkedIn</a> | <a href="https://github.com/HaibaraAiChan">GitHub</a></p>  
-</header>  
+<header>
+    <h1>Shuangyan (Sophie) Yang</h1>
+    <p>Ph.D. Candidate in Computer Science | UC Merced</p>
+    <p>Email: <a href="mailto:syang127@ucmerced.edu">syang127@ucmerced.edu</a> | 
+       LinkedIn: <a href="#">LinkedIn</a> | 
+       GitHub: <a href="https://github.com/HaibaraAiChan">GitHub</a></p>
+</header>
 
-<section id="about">  
-    <h2>About</h2>  
-    <p>Ph.D. Student in Computer Science at UC Merced, focusing on parallel systems and architectures.</p>  
-</section>  
+<section id="about">
+    <h2>About</h2>
+    <p>I am a Ph.D. candidate in Computer Science at UC Merced, specializing in parallel systems and architectures, with a focus on LLM on heterogeneous memory systems and GNN training on big memory systems.</p>
+</section>
 
-<section id="education">  
-    <h2>Education</h2>  
-    <ul>  
-        <li>Ph.D. in Computer Science, University of California, Merced (2021 - Present), GPA: 3.9/4.0</li>  
-        <li>M.S. in Electrical & Computer Engineering, Louisiana State University (2016 - 2020), GPA: 3.8/4.0</li>  
-        <li>M.S. in Computer Science, China University of Petroleum (2013 - 2016), GPA: 86.0/100</li>  
-        <li>B.S. in Computer Science, Ocean University of China (2008 - 2012), GPA: 90.8/100</li>  
-    </ul>  
-</section>  
+<section id="publications">
+    <h2>Publications</h2>
+    <ul>
+        <li><strong>Buffalo:Enabling Large-Scale GNN Training via Memory-Efficient Bucketization</strong><br>
+            Authors: Shuangyan Yang(UC Merced), Minjia Zhang(UIUC),  Dong Li(UC Merced)<br>
+            In the 31th International Symposium on High-Performance Computer Architecture (HPCA) HPCA'25<br>
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong>Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory</strong><br>
+            Authors: Jie Ren (College of William & Mary), Bin Ma (UC Merced), Shuangyan Yang (UC Merced), Benjamin Francis (Meta), Ehsan Ardestani (Meta), Min Si (Meta), Dong Li (UC Merced)<br>
+            31st International Symposium on High-Performance Computer Architecture (HPCA'25)<br>
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong> Performance Characterization of CXL Memory and Its Use Cases </strong><br>
+            Authors: Xi Wang (UC Merced), Jie Liu (UC Merced), Jianbo Wu (UC Merced), Shuangyan Yang (UC Merced), Jie Ren (College of William & Mary), Bhanu Shankar (MemVerge), Dong Li (UC Merced)<br>
+            39th IEEE International Parallel and Distributed Processing Symposium (IPDPS'25)<br> 
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong> DyNN-Offload: Enabling Large Dynamic Neural Network Training with Learning-based Memory Management </strong><br>
+            Authors: Jie Ren (UC Merced and College of William & Mary), Dong Xu (UC Merced), Shuangyan Yang (UC Merced), Christian Navasca (UCLA), Chenxi Wang (ICT, CAS), Guoqing Harry Xu (UCLA), Dong Li (UC Merced)<br>
+            30th International Symposium on High-Performance Computer Architecture (HPCA'24)<br> 
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong> Betty: Enabling Large-Scale GNN Training with Batch-Level Graph Partitioning </strong><br>
+            Authors: Shuangyan Yang (UC Merced), Minjia Zhang (Microsoft), Wenqian Dong (UC Merced), Dong Li (UC Merced)<br>
+            28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'23).<br> 
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong> ZeRO-Offload: Democratizing Billion-Scale Model Training </strong><br>
+            Authors: Jie Ren (UC Merced), Samyam Rajbhandari (Microsoft), Reza Yazdani Aminabadi (Microsoft), Olatunji Ruwase (Microsoft), Shuangyan Yang (UC Merced), Minjia Zhang (Microsoft), Dong Li (UC Merced), Yuxiong He (Microsoft)<br>
+            27th USENIX Annual Technical Conference (ATC'21)<br> 
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <li><strong> BionoiNet: Ligand-binding Site Classification with Off-the-Shelf Deep Neural Network </strong><br>
+            Authors: Wentao Shi (LSU), Jeffrey Lemoine (LSU), Abd-El-Monsif Shawky (LSU), Manali Singha (LSU), Limeng Pu (LSU), Shuangyan Yang (LSU), Ramanujam J (LSU), Michal Brylinski (LSU)<br>
+            Bioinformatics 36 (10): 3077-3083 (BI'20)<br> 
+            <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+        </li>
+        <!-- Add more publications as needed -->
+    </ul>
+</section>
 
-<section id="research">  
-    <h2>Research Interests</h2>  
-    <ul>  
-        <li>LLM on heterogeneous memory systems</li>  
-        <li>Parallel systems and architectures, and HPC</li>  
-        <li>GNN training on big memory systems</li>  
-    </ul>  
-</section>  
+<section id="research">
+    <h2>Research</h2>
+    <p>My research focuses on:</p>
+    <ul>
+        <li>LLM on heterogeneous memory systems</li>
+        <li>Parallel systems and architectures</li>
+        <li>GNN training on big memory systems</li>
+    </ul>
+</section>
 
-<section id="coursework">  
-    <h2>Relevant Coursework</h2>  
-    <ul>  
-        <li>Deep Learning</li>  
-        <li>Data Mining</li>  
-        <li>GPU Programming</li>  
-        <li>Matrix Theory</li>  
-        <li>Artificial Intelligence Technology</li>  
-        <li>Parallel Computing</li>  
-        <li>Advanced Computer Architecture</li>  
-        <li>Multicore Computer System Design</li>  
-    </ul>  
-</section>  
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li><strong>Research Assistant</strong><br>
+            UC Merced, 2021 - Present<br>
+            Conducted research on parallel systems and architectures.
+        </li>
+        <!-- Add more experience as needed -->
+    </ul>
+</section>
 
-<section id="experience">  
-    <h2>Professional Experience</h2>  
-    <p>Research Assistant at UC Merced</p>  
-</section>  
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: Python, C++, CUDA</li>
+        <li>Tools: TensorFlow, PyTorch, MPI</li>
+        <li>Frameworks: Parallel Computing, Deep Learning</li>
+    </ul>
+</section>
 
-<footer>  
-    <p>&copy; 2023 Shuangyan (Sophie) Yang</p>  
-</footer>  
+<footer>
+    <p>&copy; 2023 Shuangyan (Sophie) Yang</p>
+</footer>
 
-</body>  
-</html>  
+</body>
+</html>
