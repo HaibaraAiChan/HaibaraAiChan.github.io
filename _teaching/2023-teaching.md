@@ -1,9 +1,9 @@
 ---
-title: "Instructor"
+title: "TA"
 collection: teaching
 type: "Undergraduate-level course"
 permalink: /teaching/2023-Spring
-venue: "CS @ William & Mary"
+venue: "CS @ UC Merced"
 date: 2023-01-24
 ---
 
