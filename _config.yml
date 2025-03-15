@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jie Ren's Website"
+title                    : "Shuangyan Yang's Website"
 title_separator          : "-"
-name                     : &name "Jie Ren"
+name                     : &name "Shuangyan Yang"
 description              : &description "personal description"
-url                      : https://jren73.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://HaibaraAiChan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jren73/jren73.github.io"
+repository               : "HaibaraAiChan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jie Ren"
-  avatar           : "IMG_2884.JPG"
-  bio              : "Assistant Professor at William & Mary"
-  location         : "VA, US"
+  name             : "Shuangyan Yang"
+  avatar           : "shuangyan.JPG"
+  bio              : "Ph.D. Student in Computer Science at UC Merced, focusing on parallel systems and architectures."
+  location         : "CA, US"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=3PjCzH4AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=7U6jOvIAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jren73"
+  github           : "HaibaraAiChan"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "Dawn41624925"
+  twitter          : #"Dawn41624925"
   vine             :
   weibo            :
   xing             :
