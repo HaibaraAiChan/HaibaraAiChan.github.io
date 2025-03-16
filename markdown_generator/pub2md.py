@@ -42,8 +42,9 @@ import pandas as pd
 
 # In[3]:
 
-
-publications = pd.read_csv("publications.csv", sep=",", encoding = "utf-8", header=0)
+# publications = pd.read_csv("publications.csv", sep=",", encoding="utf-8", header=0, errors='replace')  
+# publications = pd.read_csv("publications.csv", sep=",", encoding = "utf-8", header=0)
+publications = pd.read_csv("publications_utf8.csv", sep=",", encoding="utf-8", header=0) 
 # publications
 
 
