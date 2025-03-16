@@ -13,8 +13,7 @@ I hold a Ph.D. in [Electrical Engineering and Computer Science](https://eecs.ucm
 
 
 
-<!-- My research interests span **operating systems, computer architecture, and their intersection with machine learning and high-performance computing**. My research aims to improve the performance and resource efficiency of heterogeneous computing systems while making it easier for users to deploy and manage their applications. -->
-
+My research interests span **high-performance computing, machine learning, and their intersection with heterogeneous memory systems**. My research aims to improve the performance and resource efficiency of large-scale models, making it easier to deploy and manage applications in distributed and resource-constrained environments.
 
 <!-- News
 ---- 
